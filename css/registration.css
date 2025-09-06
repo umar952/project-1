@@ -1,0 +1,95 @@
+.registration{
+    height: 100vh;
+    margin: 25px auto;
+    display: block;
+    width: 69%;
+    padding: 0px 71px 67px 164px;
+	background: #3B3B98;
+}
+
+.registration{
+    display: flex;
+	flex-direction:column;
+    align-items: center;
+	justify-content: space-evenly;
+}
+
+body {
+	background: #bbaa8b;
+}
+
+.form {
+	display:flex;
+	display:block;
+	width:100%
+	
+}
+form {
+	display: flex;
+	align-content:center;
+	flex-direction:column;
+    justify-content: space-evenly;
+}
+input {
+	display:block;
+	width:100%;
+}
+
+.form>form input:focus{
+	    border-radius: 3px #1B9CFC;
+		/* background:#1B9CFC; */
+		border: 1px solid #1B9CFC;
+}
+
+.form>form input::placeholder {
+	color : #000;
+    font-size: 12px;
+    text-transform: capitalize;
+} 
+
+
+
+form input {
+    padding: 20px 15px;
+}
+
+.registration>.social-site>i:hover {
+    color: #bbaa8b;
+}
+
+.social-site {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    background-color: aliceblue;
+    padding: 20px 30px;
+}
+
+.submit-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    /* width: 50; */
+    
+}
+
+.submit-button{
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+
+
+}
+
+.submit-button input{
+   background-color: green;
+   padding: 20px 15px;
+
+
+}
+
+input reset {
+    margin-top: 20px;
+    
+}
